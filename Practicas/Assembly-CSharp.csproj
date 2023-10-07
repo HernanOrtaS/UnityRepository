@@ -58,9 +58,10 @@
     <Analyzer Include="D:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CreaItems.cs" />
     <Compile Include="Assets\Scripts\Trigger.cs" />
+    <Compile Include="Assets\Scripts\Random_CrearItems.cs" />
     <Compile Include="Assets\Scripts\Destruye_Item.cs" />
-    <Compile Include="Assets\Scripts\Crea_Items.cs" />
     <Compile Include="Assets\Scripts\Mov_Player.cs" />
   </ItemGroup>
   <ItemGroup>
