@@ -1,0 +1,1019 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Github/UnityRepository/proy3010
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50336
+Successfully changed project path to: D:/Github/UnityRepository/proy3010
+D:/Github/UnityRepository/proy3010
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9648] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 2903527830 [EditorId] 2903527830 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CPF3QU1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9648] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 2903527830 [EditorId] 2903527830 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CPF3QU1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 6.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/UnityRepository/proy3010/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7600 (ID=0x7480)
+    Vendor:   ATI
+    VRAM:     8129 MB
+    Driver:   31.0.23013.1023
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010334 seconds.
+- Loaded All Assemblies, in  0.299 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 201 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.488 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (488ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (303ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.511 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.457 seconds
+Domain Reload Profiling: 967ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3560.
+Memory consumption went from 123.9 MB to 123.8 MB.
+Total: 2.499800 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.083100 ms MarkObjects: 2.128400 ms  DeleteObjects: 0.087800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3486.034254 seconds.
+  path: Assets/prefabs
+  artifactKey: Guid(6eca77b9f4b27564385ddb4bfff21bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs using Guid(6eca77b9f4b27564385ddb4bfff21bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfcc83001dcb416148680fbf78834ac') in 0.002255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.022002 seconds.
+  path: Assets/prefabs/Canvas.prefab
+  artifactKey: Guid(3951f9826ea1c3749b743f75ba01fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Canvas.prefab using Guid(3951f9826ea1c3749b743f75ba01fdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca108adcc3160f73963611452bec33f') in 0.046504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 29.521973 seconds.
+  path: Assets/prefabs/EventSystem.prefab
+  artifactKey: Guid(ba51f93c57c1fe34fba2fc6ec9835264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/EventSystem.prefab using Guid(ba51f93c57c1fe34fba2fc6ec9835264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238f3291e2a3f7382cea4146e40cf00a') in 0.002493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.018216 seconds.
+  path: Assets/prefabs/ManagerDialogos.prefab
+  artifactKey: Guid(c5407c46f5282014bb0eeffe1788a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ManagerDialogos.prefab using Guid(c5407c46f5282014bb0eeffe1788a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4449c8ac30ff3dc39a68981dea33b8') in 0.004735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 22.828412 seconds.
+  path: Assets/prefabs/cuadro_blanco.jpeg
+  artifactKey: Guid(d7d86bfb4b2c5604caf5d54df59400c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/cuadro_blanco.jpeg using Guid(d7d86bfb4b2c5604caf5d54df59400c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b350ac7c261d6801f9e815daada4e1') in 0.068193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 129.811766 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Normal.png
+  artifactKey: Guid(a0092062e55fbc744bd7b103af236a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Normal.png using Guid(a0092062e55fbc744bd7b103af236a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4479f40c8fa99afaaabc455d2ad93ec1') in 0.017732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006796 seconds.
+  path: Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman1.asset
+  artifactKey: Guid(bfb437967aee3ab449cef076d558f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman1.asset using Guid(bfb437967aee3ab449cef076d558f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fa9dd920374f8e4d6191b4935e1cc1') in 0.001204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/prefabs/TextMesh Pro/Fonts
+  artifactKey: Guid(87e38fdf2c2629e43b02d1d7cfaaa085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Fonts using Guid(87e38fdf2c2629e43b02d1d7cfaaa085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79095d56a1962a0936d123ea74c89249') in 0.000302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001255 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(d6f9a63842e874942939731a7acd6774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Sprite Assets using Guid(d6f9a63842e874942939731a7acd6774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5871c82dc5cfe48aaad18a581f37bc57') in 0.000275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002151 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(a45341bd1f5930144809b6fad7efb692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(a45341bd1f5930144809b6fad7efb692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b95a17a4ddb386078663ec1b3283388') in 0.003158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001839 seconds.
+  path: Assets/prefabs/ScriptableObjsScripts/SO_CambiaColor.cs
+  artifactKey: Guid(ec1161461b0b83343a3d615127542dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObjsScripts/SO_CambiaColor.cs using Guid(ec1161461b0b83343a3d615127542dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05d330a23e1780c1ae75e0916e6309d') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002637 seconds.
+  path: Assets/prefabs/Sprites/SpiderMan4.png
+  artifactKey: Guid(814a18b1430a00b42977d37cfc82e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Sprites/SpiderMan4.png using Guid(814a18b1430a00b42977d37cfc82e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57314e938fe600f9368ea08ec602f3c8') in 0.029542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008808 seconds.
+  path: Assets/prefabs/Scenes
+  artifactKey: Guid(9a1f04337acdff240b5e9b06322e5e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes using Guid(9a1f04337acdff240b5e9b06322e5e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6afea452fbd24eb60d5fbbf3f54a35') in 0.000613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002254 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(4644efcf08b8a13499e7ab9d579069f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(4644efcf08b8a13499e7ab9d579069f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379b0b9443b39b3a20582c01ffc172f8') in 0.001460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002672 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Teary-Eyed.png
+  artifactKey: Guid(640ef0c6be4851b49832988e1f254c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Teary-Eyed.png using Guid(640ef0c6be4851b49832988e1f254c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67328a9a2e0b3a7282c0690727ffc953') in 0.014747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006079 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(26af7963098f0484f920a5134dd81f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(26af7963098f0484f920a5134dd81f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909244438e53bade179867000bfc1898') in 0.002597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001804 seconds.
+  path: Assets/prefabs/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(b6485deafda3fa04fb7583e59fc50713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Sprites/EmojiOne.json using Guid(b6485deafda3fa04fb7583e59fc50713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ab588c3526a24904cd2cdca4e02190') in 0.000727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003923 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Sad.png
+  artifactKey: Guid(c98ff2aaf6f79a74fa67f66dcd309a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Sad.png using Guid(c98ff2aaf6f79a74fa67f66dcd309a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c3d8f6e5128d122e19f12378f17a6') in 0.015017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006248 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(57dc4490fb006544c8df4c68caf3d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(57dc4490fb006544c8df4c68caf3d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec46b1fc6580e529edea7acf52e0e27') in 0.001120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001930 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(de6a2297f3f37e14984e046c6f9a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(de6a2297f3f37e14984e046c6f9a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4b6b4d9fbb7daf9691570413274071') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002732 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Crying.png
+  artifactKey: Guid(c697441c9ccebdd46a82838082921d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Crying.png using Guid(c697441c9ccebdd46a82838082921d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdaf5fb28e4281f3200ecad4326cd00') in 0.013920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006907 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Surprised.png
+  artifactKey: Guid(8c5c8385e72bf774ab82a812eda9805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Surprised.png using Guid(8c5c8385e72bf774ab82a812eda9805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a39c6eacb01e1d9e7d221eac8884e2') in 0.014317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006293 seconds.
+  path: Assets/prefabs/Scenes/PanelConversacion.unity
+  artifactKey: Guid(d6e5b7326ea3ebd418f22ea146cc1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/PanelConversacion.unity using Guid(d6e5b7326ea3ebd418f22ea146cc1c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510c341fe3152f20b46df70a1f17784f') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002182 seconds.
+  path: Assets/prefabs/Sprites/SpiderMan5.png
+  artifactKey: Guid(e93a4d7a4ff466141913ef5553d0184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Sprites/SpiderMan5.png using Guid(e93a4d7a4ff466141913ef5553d0184f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9784f4062bd38f8e53c89b6936e7c2') in 0.017340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006451 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Normal.png
+  artifactKey: Guid(80e058ce5b751ee4bb62b4ba8ac514e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Normal.png using Guid(80e058ce5b751ee4bb62b4ba8ac514e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0d837650df8f32392492a24867d46c') in 0.014408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006259 seconds.
+  path: Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman4.asset
+  artifactKey: Guid(b5de33bd9d07cc64797c509102751bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman4.asset using Guid(b5de33bd9d07cc64797c509102751bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f7b25dedc6808ab4ae3a473fa23f99') in 0.001031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002089 seconds.
+  path: Assets/prefabs/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(f440a3fb0c755ce4cbc12b5361088dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(f440a3fb0c755ce4cbc12b5361088dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf70f131f644c6a113a405c6025b4f') in 0.000621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001860 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(cf8d3a78ebef02247ad70839451b595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(cf8d3a78ebef02247ad70839451b595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f184aa459c1673710b6535f9c83edd8') in 0.000904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001393 seconds.
+  path: Assets/prefabs/Sprites
+  artifactKey: Guid(c7aed7dd4dce82d47ac0daa970b550d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Sprites using Guid(c7aed7dd4dce82d47ac0daa970b550d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ded88b4da0d2762bab8dc5c7cc03dc') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001961 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(8390c1d6e95353d42b139ce5b8855684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(8390c1d6e95353d42b139ce5b8855684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dd7b7db9443fa747bb160a16637e55') in 0.000669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001883 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(6dba6590412fa0f4387ec80bda03baef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(6dba6590412fa0f4387ec80bda03baef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cf6116fe00d215c0791e1b6bd52faf') in 0.000917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001429 seconds.
+  path: Assets/prefabs/Conversaciones
+  artifactKey: Guid(a350ea7d4d26956468999f291fcdc114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Conversaciones using Guid(a350ea7d4d26956468999f291fcdc114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c604c410420d7b0fe3ed524c6ee329e9') in 0.000296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001795 seconds.
+  path: Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman2.asset
+  artifactKey: Guid(060c883ec3c38fd4cb61a569383a028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman2.asset using Guid(060c883ec3c38fd4cb61a569383a028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c95beeadc363c404f03f33c9dbb0069') in 0.001192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001881 seconds.
+  path: Assets/prefabs/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(b41efbf748bd34e478da055b878e9426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(b41efbf748bd34e478da055b878e9426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd475cbfe48728664134ba8c8dfae399e') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002582 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Worried.png
+  artifactKey: Guid(3588018e853bd3748b14d8912335525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Worried.png using Guid(3588018e853bd3748b14d8912335525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ed5aad75fbedf33b776e4c95c0312b') in 0.014549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005945 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(66cee6e13ef918c4188a1e63cf6fd75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(66cee6e13ef918c4188a1e63cf6fd75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5d178e5ad3c9c35fe1e0f9d27b9b8c') in 0.001003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001971 seconds.
+  path: Assets/prefabs/ScriptableObjsScripts/CrearConversacion.cs
+  artifactKey: Guid(1718f7b20021beb48b160dbf23fbcb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObjsScripts/CrearConversacion.cs using Guid(1718f7b20021beb48b160dbf23fbcb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22e9abb965cb27e044f57894f4afab2') in 0.000327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002000 seconds.
+  path: Assets/prefabs/Script/AvanzarDialogos.cs
+  artifactKey: Guid(de0802db815971545ab3068fb88a7dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Script/AvanzarDialogos.cs using Guid(de0802db815971545ab3068fb88a7dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a519ce0dbefc518398ec96836067f4d4') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001408 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources
+  artifactKey: Guid(f1bb5418bc38a73429887f7ad1027ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources using Guid(f1bb5418bc38a73429887f7ad1027ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be32b81e02858ef65c3b56e9b2a0fc65') in 0.000289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001848 seconds.
+  path: Assets/prefabs/Script/CambioDialogos.cs
+  artifactKey: Guid(a0423c7f097e61140a91d94e80bd7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Script/CambioDialogos.cs using Guid(a0423c7f097e61140a91d94e80bd7abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dd531ebaa5db1f59f02b71ab24844d') in 0.000313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001964 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e27a99fdfb0b58b40a75129c977d42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e27a99fdfb0b58b40a75129c977d42cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94971f34b45a00efe9f40a4deb04ae79') in 0.058930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004570 seconds.
+  path: Assets/prefabs/ScriptableObjsScripts
+  artifactKey: Guid(fb56a4fe65cf0524f8953f63b85e48ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObjsScripts using Guid(fb56a4fe65cf0524f8953f63b85e48ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13c785097353c5067082f21bde8e3d2') in 0.000357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012228 seconds.
+  path: Assets/prefabs/Music/theme pokemon.wav
+  artifactKey: Guid(32906156497bb2743b77129b68e1fdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Music/theme pokemon.wav using Guid(32906156497bb2743b77129b68e1fdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8071a3dab85829eec34b0fadef47761') in 0.025553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005406 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(9569e857d8c547843b91fc4d35def82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(9569e857d8c547843b91fc4d35def82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79488c600244dee2c0ea677904310cff') in 0.001461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001910 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(b585ae30ef88dbe43bada61d0a136da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(b585ae30ef88dbe43bada61d0a136da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9406032c3bbae70df2abd734495ecb') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001305 seconds.
+  path: Assets/prefabs/ScriptableObject/Personajes
+  artifactKey: Guid(c67b345ec285f8849b1260fb470d1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/Personajes using Guid(c67b345ec285f8849b1260fb470d1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4d9e52b4049957fd701b1c465b17c1') in 0.000249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001519 seconds.
+  path: Assets/prefabs/conversacion 1/PersonajesConDialogos
+  artifactKey: Guid(a4dbbd92faf7f2e41b26ac38440c4674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/PersonajesConDialogos using Guid(a4dbbd92faf7f2e41b26ac38440c4674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d137a57c0844782c3ede2a814ab3ed0') in 0.000294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002036 seconds.
+  path: Assets/prefabs/conversacion 1/Conversación 1.asset
+  artifactKey: Guid(3e095d0c4ffcfb049abf1768f67a266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/Conversación 1.asset using Guid(3e095d0c4ffcfb049abf1768f67a266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de8b4c17df3fa5ef5ccd6a2db2673f4') in 0.003236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.001187 seconds.
+  path: Assets/prefabs/Script
+  artifactKey: Guid(b45fe508ecf94d04d9dc9cf0a0337994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Script using Guid(b45fe508ecf94d04d9dc9cf0a0337994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a093d219f54d81eaf786a03885e71a') in 0.000257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001940 seconds.
+  path: Assets/prefabs/Scenes/ScriptableObject_Intro.unity
+  artifactKey: Guid(a35698aa4b8e34441a74fe0e79fabf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/ScriptableObject_Intro.unity using Guid(a35698aa4b8e34441a74fe0e79fabf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5566d5658538a74cc8b79902a88412') in 0.000316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001250 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites
+  artifactKey: Guid(ddc9176f4f2a6a247ac363fe15b772eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites using Guid(ddc9176f4f2a6a247ac363fe15b772eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99618ce2efc9c9922a6ee8df145994c3') in 0.000275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001819 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(42cec617b3587b24eaecac0ccc23acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(42cec617b3587b24eaecac0ccc23acfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1292d056dd09e9d39d1f6f2f884f8499') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004341 seconds.
+  path: Assets/prefabs/Sprites/SpiderMan3.png
+  artifactKey: Guid(e2d33f1825a4eb4479912917bd980cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Sprites/SpiderMan3.png using Guid(e2d33f1825a4eb4479912917bd980cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b84436fb3af7a9c0246931dbc38673') in 0.017156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006228 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(cff9fd0d1759e7e4e9ed100051d63627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(cff9fd0d1759e7e4e9ed100051d63627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cb6430acc3a11e2e2fc983cecff1d0') in 0.000781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001343 seconds.
+  path: Assets/prefabs/ScriptableObject
+  artifactKey: Guid(9730e6584a75e4a4ba8a3b4386aa0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject using Guid(9730e6584a75e4a4ba8a3b4386aa0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cf90f9391a58c3a07a7aedc20e8799') in 0.000289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002116 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(ad0758737a883a34b8cbd734a7a3cf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(ad0758737a883a34b8cbd734a7a3cf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a011bed2d20e15151515b970240878') in 0.001304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002165 seconds.
+  path: Assets/prefabs/Scenes/PanelConversacion_Intro1.unity
+  artifactKey: Guid(2381bf554db40784da5503c7410c955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/PanelConversacion_Intro1.unity using Guid(2381bf554db40784da5503c7410c955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014185c6ebd878c3ad35e256c7b8507b') in 0.000331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001994 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(de7896f0708bb374b80094d0ce15f645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(de7896f0708bb374b80094d0ce15f645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098da11f1a2be31476db4b2025e39fca') in 0.000685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002276 seconds.
+  path: Assets/prefabs/Conversaciones/HandlerConversacion.cs
+  artifactKey: Guid(eaea0cd85eaa0d342ab4da58268bd9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Conversaciones/HandlerConversacion.cs using Guid(eaea0cd85eaa0d342ab4da58268bd9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d7c59e21b5b8f7b15c048258010586') in 0.000337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002753 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Pain.png
+  artifactKey: Guid(7797e4730fb44ee49800c165eded2db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Pain.png using Guid(7797e4730fb44ee49800c165eded2db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e21341145bc34ddc4f95a9199afe67a') in 0.014573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007221 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Joyous.png
+  artifactKey: Guid(026b419dfceb0d14e835e0345f879cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Joyous.png using Guid(026b419dfceb0d14e835e0345f879cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b85f818a66c455a8a6048503e5c6e16') in 0.016278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008859 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Surprised.png
+  artifactKey: Guid(2851a6d216b2de741b811ceca26aa789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Surprised.png using Guid(2851a6d216b2de741b811ceca26aa789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4a4b63cdd87f185a7efb663bcea5e') in 0.015788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006698 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(8a8d12c0aab4b8a4880be85610c28910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(8a8d12c0aab4b8a4880be85610c28910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4e8da6acf3d8f748da2cd3b6fad755') in 0.001126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002488 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Teary-Eyed.png
+  artifactKey: Guid(780036feba1cc1f438b7a74474af6336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Butterfree/butterfree_Teary-Eyed.png using Guid(780036feba1cc1f438b7a74474af6336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48699cfc1c642177d7e17ac01877f0ea') in 0.014242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006139 seconds.
+  path: Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman5.asset
+  artifactKey: Guid(9ff069a0f51e1af44bf72a9263ec4fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman5.asset using Guid(9ff069a0f51e1af44bf72a9263ec4fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d66fb615434c6632fe877e74d48b13a') in 0.001057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001406 seconds.
+  path: Assets/prefabs/conversacion 1
+  artifactKey: Guid(8424eb45ecde5214e9267a43e2155fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1 using Guid(8424eb45ecde5214e9267a43e2155fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3f17465f1b8f222cd861823a901724') in 0.000291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001704 seconds.
+  path: Assets/prefabs/conversacion 1/PersonajesConDialogos/dialog1.asset
+  artifactKey: Guid(224c477096dbde84e94e4a8e9c64fe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/PersonajesConDialogos/dialog1.asset using Guid(224c477096dbde84e94e4a8e9c64fe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5620c08c0dc26a9b6f70db3789b6ec9') in 0.001223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003567 seconds.
+  path: Assets/prefabs/TextMesh Pro/Sprites
+  artifactKey: Guid(49dfd0e3eb613e943ae322f5eab081ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Sprites using Guid(49dfd0e3eb613e943ae322f5eab081ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cef8636ed1a3bd6615e5ccd77a82765') in 0.000321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001787 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(06a24cf980a3990448ab6cf90abf5754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/TMP Settings.asset using Guid(06a24cf980a3990448ab6cf90abf5754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4590476bf68b55fc16707c9b6688d005') in 0.012549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.001810 seconds.
+  path: Assets/prefabs/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(53453707260b1f9439061f46a549463c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(53453707260b1f9439061f46a549463c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f659a0a05586091d2cd0cb99a97dd42') in 0.032174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.003568 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(d4f88a9d4dcdd5748b0f464c0823e6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials using Guid(d4f88a9d4dcdd5748b0f464c0823e6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ba6e1d8901051fc7cb7ddc3b4f1912') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001988 seconds.
+  path: Assets/prefabs/Scenes/PanelConversacion_Intro2.unity
+  artifactKey: Guid(e7f8632748bcc594990ced9a81398af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/PanelConversacion_Intro2.unity using Guid(e7f8632748bcc594990ced9a81398af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cd6139bc95121c9bb5d63b536411fe') in 0.000310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002266 seconds.
+  path: Assets/prefabs/Sprites/SpiderMan1.png
+  artifactKey: Guid(0e648c981afd6b24b8edadaa4592ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Sprites/SpiderMan1.png using Guid(0e648c981afd6b24b8edadaa4592ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d9abb1ae9f92159b4b190514e00dd5') in 0.016824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006399 seconds.
+  path: Assets/prefabs/Scenes/SO_CambiarColor.cs
+  artifactKey: Guid(f9ef4ea6ee23deb4aa3a71a7dbc0dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/SO_CambiarColor.cs using Guid(f9ef4ea6ee23deb4aa3a71a7dbc0dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502ef5e686b2d54eb7ee2da78ef55fc9') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002147 seconds.
+  path: Assets/prefabs/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(36a0796db2e45c9439036d0e89905dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Sprites/EmojiOne.png using Guid(36a0796db2e45c9439036d0e89905dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1285d84f3496c365c19187842a1bf701') in 0.013380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005591 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(85d8ce5d8a7d7c54b97e37ff2be7b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(85d8ce5d8a7d7c54b97e37ff2be7b9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c2d14d064315108700babfcc97fea2') in 0.001069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001582 seconds.
+  path: Assets/prefabs/TextMesh Pro/Documentation
+  artifactKey: Guid(7d2e9fb9a391f9345a6b98afbd3de24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Documentation using Guid(7d2e9fb9a391f9345a6b98afbd3de24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6a7a36a5e5deda4888e20d0250d9e9') in 0.000410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003077 seconds.
+  path: Assets/prefabs/Sprites/SpiderMan2.png
+  artifactKey: Guid(6dc7b108cafca5b4d9c5aedb637740eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Sprites/SpiderMan2.png using Guid(6dc7b108cafca5b4d9c5aedb637740eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf05ac2afb1ede721637b47dc01d8f4') in 0.020399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005744 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(490e01bd49499384c8f1757ae3dc3a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(490e01bd49499384c8f1757ae3dc3a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f918a431e8763b04ee6002f550360932') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001953 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(0204da8f240bc174e8a78d75c180d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(0204da8f240bc174e8a78d75c180d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5494c1682927b3b9dfce2af955c6fb3') in 0.037579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005611 seconds.
+  path: Assets/prefabs/ScriptableObjsScripts/PersDialogo.cs
+  artifactKey: Guid(1631765cdbb68b04c8ae4bab549661e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObjsScripts/PersDialogo.cs using Guid(1631765cdbb68b04c8ae4bab549661e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bed70a5dd167cdaf7a1ea8623ba139') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001766 seconds.
+  path: Assets/prefabs/Scenes/Conversación Tarea.unity
+  artifactKey: Guid(4b222758dde4cf447b5ea6a612e32e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/Conversación Tarea.unity using Guid(4b222758dde4cf447b5ea6a612e32e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e24ad1e53d7aa0e7714224aba298810') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001300 seconds.
+  path: Assets/prefabs/Music
+  artifactKey: Guid(d5865dabccc35f44fab63279d42a167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Music using Guid(d5865dabccc35f44fab63279d42a167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098cd6cefc86454be93af3f826b01e1a') in 0.000277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001972 seconds.
+  path: Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman3.asset
+  artifactKey: Guid(e8af6709f6a81b34c9f87241fab4c4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/Personajes/Personaje_Spiderman3.asset using Guid(e8af6709f6a81b34c9f87241fab4c4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2bfcff88e2d5b325b9a31157af134e') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002085 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(823260bc47e15914ca4d0361d7770de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(823260bc47e15914ca4d0361d7770de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80702f1bccf4e75b5660e40fa70ebb8') in 0.000930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001901 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(848c4ac0da04e324fb6f264162cfcf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(848c4ac0da04e324fb6f264162cfcf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79176a1efde0d2129ca3f64ac9c2c775') in 0.000946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002144 seconds.
+  path: Assets/prefabs/ScriptableObject/HandlerSO_CambiaColor.cs
+  artifactKey: Guid(b1582d9e192b81945aff1788319e8dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/HandlerSO_CambiaColor.cs using Guid(b1582d9e192b81945aff1788319e8dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd01096c3a120fbdfae08c6d0d4f81') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002061 seconds.
+  path: Assets/prefabs/ScriptableObjsScripts/Personaje.cs
+  artifactKey: Guid(5c97c39e422b8de468b1dca8ee0e6928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObjsScripts/Personaje.cs using Guid(5c97c39e422b8de468b1dca8ee0e6928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818d5f1458ab04fcc8e9ea10af6c3a56') in 0.000350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002051 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(98331a37b26d91642b6f30c7b2b0ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders/TMPro.cginc using Guid(98331a37b26d91642b6f30c7b2b0ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2873852e3eddd5589f5bb97aa3d3bf') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001763 seconds.
+  path: Assets/prefabs/Scenes/Conversación Tarea 1Version2.unity
+  artifactKey: Guid(2e5c206a51b0cb8448bfd0bc683c0ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/Conversación Tarea 1Version2.unity using Guid(2e5c206a51b0cb8448bfd0bc683c0ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdecf14ee53f97e3a8404aea7fdb8f4c') in 0.000335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002127 seconds.
+  path: Assets/prefabs/Scenes/SampleScene.unity
+  artifactKey: Guid(401fc2516f84e084eaadd3c10111a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Scenes/SampleScene.unity using Guid(401fc2516f84e084eaadd3c10111a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19feddef6ea078ce81988baa4d750bfb') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002021 seconds.
+  path: Assets/prefabs/Script/CambioColor.cs
+  artifactKey: Guid(43a47b8ba0da69e4cb068caae10c71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Script/CambioColor.cs using Guid(43a47b8ba0da69e4cb068caae10c71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17aad693c540deaa31188b5cd945f7a6') in 0.000349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001341 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(8349a4478e3bf3549b4daa552bd2c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Style Sheets using Guid(8349a4478e3bf3549b4daa552bd2c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015871bea7bf7d62775d15e4e8a244cf') in 0.000300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001467 seconds.
+  path: Assets/prefabs/TextMesh Pro
+  artifactKey: Guid(6e62d52fbde62b941b7e9473ab67749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro using Guid(6e62d52fbde62b941b7e9473ab67749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65017d0d81f71b66c16820775e93c2f2') in 0.000302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001287 seconds.
+  path: Assets/prefabs/conversacion 1/personajes
+  artifactKey: Guid(3fb7c9c0c142eda4d8ad0fa36ee037e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes using Guid(3fb7c9c0c142eda4d8ad0fa36ee037e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec67c8034013694485b7d8b3ce2a1d9') in 0.000296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003416 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Crying.png
+  artifactKey: Guid(f6e8e31d15e1aa446bbfeeb5cd7d0187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Crying.png using Guid(f6e8e31d15e1aa446bbfeeb5cd7d0187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8111b03b9196180333d8b61c9d610e') in 0.017054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009792 seconds.
+  path: Assets/prefabs/Script/CambioPersonajes.cs
+  artifactKey: Guid(5729324f94408154a9d06e5bbe6f3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Script/CambioPersonajes.cs using Guid(5729324f94408154a9d06e5bbe6f3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1881417df39500f360a9e1b485de07') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002664 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Worried.png
+  artifactKey: Guid(a03acd5feaf2f474a9da4b9d5dd4249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Bulbasaur Sprites/bulbasaur_Worried.png using Guid(a03acd5feaf2f474a9da4b9d5dd4249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c966798b164894894554b4328eeb5c1') in 0.015821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005933 seconds.
+  path: Assets/prefabs/conversacion 1/personajes/Butterfree
+  artifactKey: Guid(a7de3b0fd3267204db01ea69312c4242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/conversacion 1/personajes/Butterfree using Guid(a7de3b0fd3267204db01ea69312c4242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cd68eb220fa3d28867ca5b241f57bd') in 0.000367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001854 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(76e61153652ed4245a9dd0f424bf12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(76e61153652ed4245a9dd0f424bf12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0981c705ba98c5a3f9b48100eb36236') in 0.022803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.004875 seconds.
+  path: Assets/prefabs/ScriptableObject/ColorSO_Cubo.asset
+  artifactKey: Guid(8a5578f4e02a65b4bbf5f4b9618ee3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/ScriptableObject/ColorSO_Cubo.asset using Guid(8a5578f4e02a65b4bbf5f4b9618ee3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b63f0c1760e2ca20a3494ca050dec68') in 0.000992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002233 seconds.
+  path: Assets/prefabs/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(6e98db009bac7a749a2a2872b47014b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(6e98db009bac7a749a2a2872b47014b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab7e43f93386e9c4f516b5fe5ddad91') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001326 seconds.
+  path: Assets/prefabs/TextMesh Pro/Shaders
+  artifactKey: Guid(2ffae4d307b9bbf4d95a62a451a46537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Shaders using Guid(2ffae4d307b9bbf4d95a62a451a46537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904ed82b78bc03d7718b6c1930b96cc6') in 0.000255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002364 seconds.
+  path: Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(109cfb9f5bb479642888c085ec6f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(109cfb9f5bb479642888c085ec6f650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1998f42f5f68017aab6de4dd017285b0') in 0.023153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9

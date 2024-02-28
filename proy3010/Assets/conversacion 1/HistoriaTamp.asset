@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abddf2efaa464ec4b83bcf51bfd6ecba, type: 3}
+  m_Name: HistoriaTamp
+  m_EditorClassIdentifier: 
+  dialogos:
+  - nombre: Narrador
+    imagen: {fileID: 21300000, guid: 522e02e8520224b4f8f3f0ef26eccc4a, type: 3}
+    dialog: "Tampico es la cabecera del municipio del mismo nombre, su Plaza de Armas
+      se localiza en la parte sureste del estado de Tamaulipas, colindando con el
+      estado de Veracruz a trav\xE9s de Pueblo Viejo a 10 km de su desembocadura
+      que se encuentra en Golfo de M\xE9xico."
+    velTexto: 0.01
+  - nombre: Narrador
+    imagen: {fileID: 21300000, guid: 522e02e8520224b4f8f3f0ef26eccc4a, type: 3}
+    dialog: "La zona alrededor de Tampico est\xE1 constituida por los municipios
+      metropolitanos de Altamira y Ciudad Madero en Tamaulipas, por otra parte en
+      Veracruz est\xE1n P\xE1nuco y Pueblo Viejo, la parte veracruzana de la conurbaci\xF3n
+      se conecta al sur de Tamaulipas por medio del Puente del Moralillo y Puente
+      Tampico y por 8 pasos de botes que atraviesan el R\xEDo P\xE1nuco, son cercanas
+      las ciudades de \xC9bano, Ciudad Valles y Tamu\xEDn en el Edo. de San Luis
+      Potos\xED; Huejutla en el Edo. de Hidalgo; Tantoyuca, El Higo, Tempoal, Poza
+      Rica, Tuxpan, P\xE1nuco, Cerro Azul, y Naranjos en el estado de Veracruz."
+    velTexto: 0.01
+  - nombre: Narrador
+    imagen: {fileID: 21300000, guid: 522e02e8520224b4f8f3f0ef26eccc4a, type: 3}
+    dialog: "En un espacio de aproximadamente 150 ha, que incluyen el medio acu\xE1tico
+      estuarino y terrestre, en pleno coraz\xF3n de la ciudad, la Laguna del Carpintero
+      constituye un territorio que, no obstante estar sometido a una constante presi\xF3n
+      urbana, posee una gran variedad de especies animales. La Laguna del Carpintero
+      est\xE1 conectada por el Canal de la Cortadura con el r\xEDo P\xE1nuco, la
+      laguna posee una profundidad m\xE1xima de 6 metros."
+    velTexto: 0.01
+  - nombre: Narrador
+    imagen: {fileID: 21300000, guid: 522e02e8520224b4f8f3f0ef26eccc4a, type: 3}
+    dialog: "En la Laguna del Carpintero habita el cocodrilo de Morelet (Crocodylus
+      moreletii), lo que hace un atractivo m\xE1s en este punto de la ciudad. Steve
+      Irwin (\"El Cazador de Cocodrilos\") realiz\xF3 un viaje hasta La Laguna del
+      Carpintero para documentar una investigaci\xF3n sobre los cocodrilos de la
+      zona."
+    velTexto: 0.01
+  - nombre: Narrador
+    imagen: {fileID: 21300000, guid: 522e02e8520224b4f8f3f0ef26eccc4a, type: 3}
+    dialog: "Tampico es un sitio donde arriban en invierno pel\xEDcanos y patos procedentes
+      de Canad\xE1 y los Estados Unidos de Am\xE9rica, los cuales pueden observarse
+      en la Laguna del Chairel y el R\xEDo Tames\xED; Su fauna cuenta con ibis, garzas,
+      mapaches, zarig\xFCeyas, nutrias y tortugas entre otras especies."
+    velTexto: 0.01
+  - nombre: Narrador
+    imagen: {fileID: 21300000, guid: 522e02e8520224b4f8f3f0ef26eccc4a, type: 3}
+    dialog: "La Laguna de la Vega Escondida forma parte del sistema lagunario del
+      R\xEDo Tames\xED siendo un \xE1rea protegida de 2217 ha la cual habitan al
+      menos veinticuatro especies animales incluyendo la nutria y cuatro vegetales,
+      adem\xE1s de algunas especies animales end\xE9micas."
+    velTexto: 0.01

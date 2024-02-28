@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abddf2efaa464ec4b83bcf51bfd6ecba, type: 3}
+  m_Name: "Conversaci\xF3n 1"
+  m_EditorClassIdentifier: 
+  dialogos:
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 333ad5ce59d601b47972bc9f22500c57, type: 3}
+    dialog: ...
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: d1ec366841e23294d984458bd1ce06d7, type: 3}
+    dialog: "\xBFQue pasa Bulbasaur?"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: d1ec366841e23294d984458bd1ce06d7, type: 3}
+    dialog: Debemos darnos prisa
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 333ad5ce59d601b47972bc9f22500c57, type: 3}
+    dialog: ...
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: (Siento el cuerpo... muy pesado)
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 333ad5ce59d601b47972bc9f22500c57, type: 3}
+    dialog: (Me cuesta mucho moverme)
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 333ad5ce59d601b47972bc9f22500c57, type: 3}
+    dialog: (Casi no puedo mover los pies)
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: (Creo que... ahora que ha cambiado el futuro)
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: "(Mi desaparici\xF3n es inminente)"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 75cffa9308ce64e4cbfeef7a56c7b890, type: 3}
+    dialog: Un terremoto!?!
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: d1ec366841e23294d984458bd1ce06d7, type: 3}
+    dialog: Creo que se ha terminado
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: d1ec366841e23294d984458bd1ce06d7, type: 3}
+    dialog: "Las cosas todav\xEDa deben ir volviendo a la normalidad"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: d1ec366841e23294d984458bd1ce06d7, type: 3}
+    dialog: Vamonos Bulbasaur
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 511c7622a75fe5e45a4bc008c4df4720, type: 3}
+    dialog: ...
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 511c7622a75fe5e45a4bc008c4df4720, type: 3}
+    dialog: (Oh no... esta luz)
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: "(Entiendo... lleg\xF3 la hora)"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: "(Aqu\xED terminan mis aventuras)"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: d1ec366841e23294d984458bd1ce06d7, type: 3}
+    dialog: Eh, Bulbasaur
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 60a7ba4d4ef340d429816ec74376d54a, type: 3}
+    dialog: "\xBFQu\xE9 pasa? \xBFQu\xE9 ocurre?"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: "Lo siento Butterfree, deb\xED contartelo antes"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 778286d025890e84397cd96be1b60a3a, type: 3}
+    dialog: "Lleg\xF3 mi momento de despedirme"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 75cffa9308ce64e4cbfeef7a56c7b890, type: 3}
+    dialog: "\xBFQu\xE9? \xBF\xA1Despedirte!?"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 75cffa9308ce64e4cbfeef7a56c7b890, type: 3}
+    dialog: "\xBF\xA1De qu\xE9 est\xE1s hablando!?"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: Dusknoir me lo dijo
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: "Si interfer\xEDamos en la historia, los pokemon del futuro desaparecer\xE1n"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 6161eb9015e58eb409bce74a03bd49d1, type: 3}
+    dialog: "Eventualmente, yo tambi\xE9n voy a desaparecer"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 75cffa9308ce64e4cbfeef7a56c7b890, type: 3}
+    dialog: "\xBFQu\xE9? No, \xBFPorqu\xE9?"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: No lo entiendo
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 778286d025890e84397cd96be1b60a3a, type: 3}
+    dialog: ...
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 778286d025890e84397cd96be1b60a3a, type: 3}
+    dialog: ... Me queda poco tiempo
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: Gracias por todo, amigo
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: Butterfree
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 00827fb6189726d48b1d77db88becc93, type: 3}
+    dialog: "Nunca te olvidar\xE9"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 60a7ba4d4ef340d429816ec74376d54a, type: 3}
+    dialog: Espera...
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: "Pude llegar hasta aqu\xED porque estabas conmigo"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: "Si pude continuar fue porque t\xFA me dabas fuerzas"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: "Si te vas, no se qu\xE9 har\xE9. No s\xE9 qu\xE9 ser\xE1 de mi"
+    velTexto: 0.08
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 778286d025890e84397cd96be1b60a3a, type: 3}
+    dialog: Tampoco quiero irme
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 00827fb6189726d48b1d77db88becc93, type: 3}
+    dialog: Pero debes ser fuerte, tienes que seguir adelante y volver a casa
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 00827fb6189726d48b1d77db88becc93, type: 3}
+    dialog: Debes ser fuerte por ambos
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: Pero...
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: cf5570e754e416f4092e828ca13c94db, type: 3}
+    dialog: ...
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: "Lo har\xE9"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: "La luz se ha vuelto m\xE1s intensa"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: Butterfree...
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 75cffa9308ce64e4cbfeef7a56c7b890, type: 3}
+    dialog: Bulbasaur, espera!
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: No, no te vayas...
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: Gracias por todo, Butterfree
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 67146a3fbe5f4eb439a69d6220f77791, type: 3}
+    dialog: "Me alegro de haberte encontrado aquel d\xEDa"
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 67146a3fbe5f4eb439a69d6220f77791, type: 3}
+    dialog: Me alegro de haber compartido todas esas aventuras contigo
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 67146a3fbe5f4eb439a69d6220f77791, type: 3}
+    dialog: Me alegro... de haberte conocido
+    velTexto: 0.1
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: ...
+    velTexto: 0.1
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: Lo siento
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: Ha sido una suerte haber sido amigo tuyo
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: Yo siento lo mismo
+    velTexto: 0.05
+  - nombre: Bulbasaur
+    imagen: {fileID: 21300000, guid: 868fb4b933eadf54889c30e16cd494c6, type: 3}
+    dialog: "No te olvidar\xE9... nunca"
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: 75cffa9308ce64e4cbfeef7a56c7b890, type: 3}
+    dialog: ...
+    velTexto: 0.05
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: aa0f41e9d58d64b42bdfb53d5075d3b5, type: 3}
+    dialog: No... Bulbasaur
+    velTexto: 0.1
+  - nombre: Butterfree
+    imagen: {fileID: 21300000, guid: cf5570e754e416f4092e828ca13c94db, type: 3}
+    dialog: Bulbasaur!!
+    velTexto: 0.1
+  - nombre: '[Sample Text]'
+    imagen: {fileID: 0}
+    dialog: '[Sample Text] [Sample Text] [Sample Text] [Sample Text] [Sample Text]'
+    velTexto: 0.1
